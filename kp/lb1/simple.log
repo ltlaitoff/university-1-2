@@ -1,0 +1,190 @@
+000 (001.000.000) 2024-04-11 18:09:34 Job submitted from host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=schedd_9824_8572>
+...
+000 (001.001.000) 2024-04-11 18:09:34 Job submitted from host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=schedd_9824_8572>
+...
+000 (001.002.000) 2024-04-11 18:09:34 Job submitted from host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=schedd_9824_8572>
+...
+000 (001.000.000) 2024-04-11 18:11:48 Job submitted from host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=schedd_19596_5ada>
+...
+000 (001.001.000) 2024-04-11 18:11:48 Job submitted from host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=schedd_19596_5ada>
+...
+000 (001.002.000) 2024-04-11 18:11:48 Job submitted from host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=schedd_19596_5ada>
+...
+000 (002.000.000) 2024-04-11 18:19:00 Job submitted from host: <192.168.0.104:0?alias=ltlaitoff-win&sock=schedd_17540_b5de>
+...
+000 (002.001.000) 2024-04-11 18:19:00 Job submitted from host: <192.168.0.104:0?alias=ltlaitoff-win&sock=schedd_17540_b5de>
+...
+000 (002.002.000) 2024-04-11 18:19:00 Job submitted from host: <192.168.0.104:0?alias=ltlaitoff-win&sock=schedd_17540_b5de>
+...
+001 (001.002.000) 2024-04-11 18:21:46 Job executing on host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=startd_10792_1ed4>
+	SlotName: slot1_3@ltlaitoff-win
+	CondorScratchDir = "C:\condor\execute\dir_11596"
+	Cpus = 1
+	Disk = 411929
+	Memory = 128
+...
+001 (002.000.000) 2024-04-11 18:21:46 Job executing on host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=startd_10792_1ed4>
+	SlotName: slot1_4@ltlaitoff-win
+	CondorScratchDir = "C:\condor\execute\dir_10600"
+	Cpus = 1
+	Disk = 411929
+	Memory = 128
+...
+001 (001.001.000) 2024-04-11 18:21:46 Job executing on host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=startd_10792_1ed4>
+	SlotName: slot1_2@ltlaitoff-win
+	CondorScratchDir = "C:\condor\execute\dir_13104"
+	Cpus = 1
+	Disk = 411929
+	Memory = 128
+...
+001 (002.002.000) 2024-04-11 18:21:46 Job executing on host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=startd_10792_1ed4>
+	SlotName: slot1_6@ltlaitoff-win
+	CondorScratchDir = "C:\condor\execute\dir_19568"
+	Cpus = 1
+	Disk = 411929
+	Memory = 128
+...
+001 (001.000.000) 2024-04-11 18:21:46 Job executing on host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=startd_10792_1ed4>
+	SlotName: slot1_1@ltlaitoff-win
+	CondorScratchDir = "C:\condor\execute\dir_3116"
+	Cpus = 1
+	Disk = 411929
+	Memory = 128
+...
+001 (002.001.000) 2024-04-11 18:21:46 Job executing on host: <192.168.0.104:9618?addrs=192.168.0.104-9618&alias=ltlaitoff-win&noUDP&sock=startd_10792_1ed4>
+	SlotName: slot1_5@ltlaitoff-win
+	CondorScratchDir = "C:\condor\execute\dir_19312"
+	Cpus = 1
+	Disk = 411929
+	Memory = 128
+...
+006 (001.000.000) 2024-04-11 18:21:46 Image size of job updated: 8936
+	9  -  MemoryUsage of job (MB)
+	8936  -  ResidentSetSize of job (KB)
+...
+006 (002.002.000) 2024-04-11 18:21:46 Image size of job updated: 15080
+	15  -  MemoryUsage of job (MB)
+	15080  -  ResidentSetSize of job (KB)
+...
+006 (001.002.000) 2024-04-11 18:21:46 Image size of job updated: 15072
+	15  -  MemoryUsage of job (MB)
+	15072  -  ResidentSetSize of job (KB)
+...
+006 (002.000.000) 2024-04-11 18:21:46 Image size of job updated: 15072
+	15  -  MemoryUsage of job (MB)
+	15072  -  ResidentSetSize of job (KB)
+...
+006 (001.000.000) 2024-04-11 18:21:46 Image size of job updated: 11620
+	12  -  MemoryUsage of job (MB)
+	11620  -  ResidentSetSize of job (KB)
+...
+006 (002.001.000) 2024-04-11 18:21:46 Image size of job updated: 15076
+	12  -  MemoryUsage of job (MB)
+	11624  -  ResidentSetSize of job (KB)
+...
+006 (001.001.000) 2024-04-11 18:21:46 Image size of job updated: 15068
+	15  -  MemoryUsage of job (MB)
+	15068  -  ResidentSetSize of job (KB)
+...
+005 (001.000.000) 2024-04-11 18:21:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      375      375    411929 
+	   Memory (MB)          :       12        1       128 
+
+	Job terminated of its own accord at 2024-04-11T15:21:46Z with exit-code 0.
+...
+005 (001.002.000) 2024-04-11 18:21:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      375      375    411929 
+	   Memory (MB)          :       15        1       128 
+
+	Job terminated of its own accord at 2024-04-11T15:21:46Z with exit-code 0.
+...
+005 (002.000.000) 2024-04-11 18:21:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      375      375    411929 
+	   Memory (MB)          :       15        1       128 
+
+	Job terminated of its own accord at 2024-04-11T15:21:46Z with exit-code 0.
+...
+005 (002.001.000) 2024-04-11 18:21:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      375      375    411929 
+	   Memory (MB)          :       12        1       128 
+
+	Job terminated of its own accord at 2024-04-11T15:21:46Z with exit-code 0.
+...
+005 (002.002.000) 2024-04-11 18:21:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      375      375    411929 
+	   Memory (MB)          :       15        1       128 
+
+	Job terminated of its own accord at 2024-04-11T15:21:46Z with exit-code 0.
+...
+005 (001.001.000) 2024-04-11 18:21:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      375      375    411929 
+	   Memory (MB)          :       15        1       128 
+
+	Job terminated of its own accord at 2024-04-11T15:21:46Z with exit-code 0.
+...
