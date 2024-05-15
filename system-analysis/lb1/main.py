@@ -7,27 +7,90 @@
 найдешевшого товару, заданого назвою.
 
 
-б) Клієнт може мати декілька рахунків у банку. Менеджер може
-додавати, переглядати, редагувати (вносити кошти на рахунок) та
-вилучати рахунки. Клієнт може переглядати стан всіх своїх
-банківських рахунків (після авторизації), сплачувати за послуги,
-переглядати перелік операцій, що вже відбулись.
+б) Клієнт може мати декілька рахунків у банку.
+Менеджер може
+додавати,
+переглядати,
+редагувати (вносити кошти на рахунок)
+та вилучати рахунки.
+
+Клієнт може 
+переглядати стан всіх своїх банківських рахунків (після авторизації),
+сплачувати за послуги,
+переглядати перелік операцій,
+що вже відбулись.
+
+
+Client
+id
+login
+password
+showBankAccountInfo(bankAccountId)
+widhdrawMoneyFromBankAccount(bankAccountId)
+showBankAccountHistoty(bankAccountId)
+
+Manager
+id
+login
+password
+
+createNewBankAccount(clientId)
+showBankAccountInfo(clientId, bankAccountId)
+// поповнення
+deleteBankAccount(clientId, bankAccountId)
+
+Bank
+clients
+managers
+bankAccounts
+
+authorization(
+login
+password
+accountType
+): Client | Manager
+
+
+
+
+BankAccountManager
+accessLevel
+clientId?
+
+create(clientId)
+showInfo(clientId, bankAccountId)
+replenishment(clientId, bankAccountId, money)
+delete(clientId, bankAccountId)
+showHistoty(clientId, bankAccountId)
+withdraw(clientId, bankAccountId, money)
+
+BankAccount
+id
+clientId
+balance
+history
+
+showInfo()
+showHistory()
+
+
 """
 
-import csv
-from entities.Warehouse import Warehouse
-from libs.LinkedList import LinkedList
+from consolemenu import *
+from consolemenu.items import *
 
-linkedList = LinkedList()	
+from task1.task1Menu import task1ConsoleMenu 
+from task2.task2Menu import task2ConsoleMenu
+# from task2.task2 import Task2
 
-with open("./data/first-task-data.csv", newline="") as csvfile:
-	reader = csv.reader(csvfile, delimiter=",", quotechar="|")
+# task2 = Task2()
+# task2.initializeBaseStructureAsAdmin()
+# task2.showAllInfo()
+# task2.demo()
 
-	next(reader)
+menu = ConsoleMenu("LB 1 System analysis")
+menu.append_item(SubmenuItem("Task 1", task1ConsoleMenu))
+menu.append_item(SubmenuItem("Task 2", task2ConsoleMenu))
 
-	for row in reader:
-		linkedList.inserAtEnd(Warehouse(*row))
-		
-	linkedList.print()
-
-print(linkedList.find("Sauer").name)
+# test()
+menu.show()

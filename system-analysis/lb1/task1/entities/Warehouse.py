@@ -16,3 +16,6 @@ class Warehouse:
 		self.product_name = product_name
 		self.unit_cost = unit_cost
 		self.quantity = quantity
+
+	def __str__(self) -> str:
+		return f"{self.name}: ${self.product_name} = ${self.unit_cost}"

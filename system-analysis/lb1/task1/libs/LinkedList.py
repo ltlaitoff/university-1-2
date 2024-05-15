@@ -1,10 +1,10 @@
-from typing import Self
-from entities import Warehouse
+from typing import Union
+from ..entities.Warehouse import Warehouse
 
 class LinkedListNode:
 	def __init__(self, value: Warehouse):
 		self.value = value
-		self.next = None 
+		self.next: Union[Warehouse, None] = None 
 
 
 class LinkedList:
@@ -24,7 +24,7 @@ class LinkedList:
 
 		current_node.next = new_node
 
-	def print(self):
+	def getStringForDisplay(self):
 		arrayForPrint = []
 	
 		current_node = self.head
@@ -37,7 +37,7 @@ class LinkedList:
 		for element in arrayForPrint:
 			resultString += element.name[:5] + " => "
 
-		print("Linked list:", resultString)
+		return resultString
 	
 	def find(self, name):
 		current_node = self.head
