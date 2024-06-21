@@ -1,0 +1,1 @@
+export { vCloseModal } from './closeModal'

@@ -1,0 +1,19 @@
+{
+	"validation": {
+		"not-valid": "Not valid name!"
+	},
+	"default": {
+		"add": "Add",
+		"name": "Name"
+	},
+	"category": {
+		"title": "Categories",
+		"add": "Add category"
+	},
+	"statistic": {
+		"title": "Statistic"
+	},
+	"settings": {
+		"title": "Settings"
+	}
+}

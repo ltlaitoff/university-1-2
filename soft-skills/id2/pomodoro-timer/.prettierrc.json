@@ -1,0 +1,22 @@
+{
+	"useTabs": true,
+	"arrowParens": "avoid",
+	"singleQuote": true,
+	"semi": false,
+	"trailingComma": "none",
+	"endOfLine": "auto",
+	"tabWidth": 2,
+	"bracketSpacing": true,
+	"bracketSameLine": false,
+	"singleAttributePerLine": true,
+	"htmlWhitespaceSensitivity": "ignore",
+	"plugins": ["@trivago/prettier-plugin-sort-imports"],
+	"importOrder": [
+		"^vue(.*)",
+		"<THIRD_PARTY_MODULES>",
+		"@(assets|components|constants|pages|store|types|utils|directives|/)",
+		"^[./]"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
